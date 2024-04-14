@@ -18,11 +18,9 @@ class TestToASCII(unittest.TestCase):
         indices = np.array([[0, 1, 2], [3, 4, 5]])
 
         ascii_art = converter.build_ascii(indices)
-        print(ascii_art)
 
         with open("test_build_ascii.txt", 'r') as file:
             true_answer = file.read()
-            print(true_answer)
 
         self.assertEqual(ascii_art, true_answer)
 

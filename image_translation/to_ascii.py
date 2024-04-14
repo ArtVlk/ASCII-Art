@@ -1,9 +1,7 @@
 import cv2
 import numpy as np
 
-ramp = ('@@@@@@@######MMMBBHHHAAAA&&GGhh9933'
-        'XXX222255SSSiiiissssrrrrrrr;;;;;;;;:::::::'
-        ',,,,,,,........')
+ramp = '@#MBHA$Gh93X25Sisr;:,.'
 ramp_numpy = np.array(list(ramp))
 
 
